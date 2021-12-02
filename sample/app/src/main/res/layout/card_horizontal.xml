@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#76A220"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+
+
+        <View
+            android:layout_width="360dp"
+            android:layout_height="10dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/bend_corner"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginTop="10dp"
+            >
+
+        </View>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/round"
+            android:backgroundTint="@color/white">
+<ImageView
+    android:layout_width="50dp"
+    android:layout_height="50dp"
+    android:layout_marginStart="30dp"
+    android:layout_marginTop="3dp"
+    android:src="@drawable/menu">
+
+
+</ImageView>
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="235dp"
+                android:layout_marginTop="13dp"
+                android:src="@drawable/cart"/>
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="282dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/fav"/>
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="9dp"
+                android:layout_marginStart="320dp"
+                android:src="@drawable/girl">
+
+            </ImageView>
+
+            <EditText
+                android:id="@+id/search_up"
+                android:layout_width="330dp"
+                android:layout_height="47dp"
+                android:layout_centerHorizontal="true"
+
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="65dp"
+
+                android:background="@drawable/round_corners"
+                android:backgroundTint="#d9d9d9"
+                android:hint="Search"
+                android:paddingLeft="20dp"
+                android:textColor="#0d6e6a"
+                android:textSize="16dp"
+                android:textStyle="normal">
+
+            </EditText>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="310dp"
+                android:layout_marginTop="77dp"
+                android:src="@drawable/ic_baseline_search_24">
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="120dp"
+                android:text="product categories"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <ImageView
+                android:id="@+id/girl"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="160dp"
+                android:layout_marginEnd="20dp"
+                android:src="@drawable/girl">
+
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/girl_two"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="120dp"
+                android:layout_marginTop="160dp"
+
+                android:src="@drawable/girl">
+
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/girl_three"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="210dp"
+                android:layout_marginTop="160dp"
+
+                android:src="@drawable/girl">
+
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/girl_four"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="160dp"
+
+                android:src="@drawable/girl">
+
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/girl_five"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="210dp"
+                android:layout_marginTop="230dp"
+
+                android:src="@drawable/girl">
+
+
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/girl_six"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="230dp"
+
+                android:src="@drawable/girl">
+
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/girl_seven"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="230dp"
+                android:layout_marginEnd="20dp"
+                android:src="@drawable/girl">
+
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/girl_eight"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="120dp"
+                android:layout_marginTop="230dp"
+
+                android:src="@drawable/girl">
+
+            </ImageView>
+
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="240dp"
+                android:orientation="horizontal">
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:scrollbars="none">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:layout_width="280dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="10dp"
+                            android:src="@drawable/card_one" />
+
+                        <ImageView
+                            android:layout_width="280dp"
+
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="5dp"
+                            android:src="@drawable/card_two" />
+
+                        <ImageView
+                            android:layout_width="280dp"
+
+                            android:layout_height="match_parent"
+
+                            android:src="@drawable/card_three" />
+
+                        <ImageView
+                            android:layout_width="280dp"
+
+                            android:layout_height="match_parent"
+
+                            android:src="@drawable/card_four" />
+
+                        <ImageView
+                            android:layout_width="280dp"
+
+                            android:layout_height="match_parent"
+
+                            android:src="@drawable/card_four" />
+                    </LinearLayout>
+
+                </HorizontalScrollView>
+
+
+
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="470dp"
+                    android:text="Latest products"
+                    android:textColor="@color/black"
+                    android:textSize="18dp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="510dp"
+                    android:background="@drawable/green_border"
+                    android:padding="6dp"
+                    android:src="@drawable/foot" />
+
+                <Button
+                    android:layout_width="150dp"
+                    android:layout_height="38dp"
+                    android:layout_marginStart="30dp"
+
+                    android:layout_marginTop="650dp"
+                    android:background="@drawable/round_corners"
+                    android:letterSpacing="0.03"
+                    android:text="Buy Now"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="15dp">
+
+                </Button>
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="210dp"
+                    android:layout_marginTop="510dp"
+                    android:background="@drawable/green_border"
+                    android:padding="6dp"
+                    android:src="@drawable/dress" />
+
+                <Button
+                    android:layout_width="150dp"
+                    android:layout_height="38dp"
+                    android:layout_marginStart="210dp"
+                    android:layout_marginTop="735dp"
+                    android:background="@drawable/round_corners"
+                    android:letterSpacing="0.03"
+                    android:text="Buy Now"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="15dp">
+
+                </Button>
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="730dp"
+                    android:background="@drawable/green_border"
+                    android:padding="6dp"
+                    android:src="@drawable/mobile" />
+
+                <Button
+                    android:layout_width="150dp"
+                    android:layout_height="38dp"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="955dp"
+                    android:background="@drawable/round_corners"
+                    android:letterSpacing="0.03"
+                    android:text="Buy Now"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="15dp">
+
+                </Button>
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="210dp"
+                    android:layout_marginTop="820dp"
+                    android:background="@drawable/green_border"
+                    android:padding="6dp"
+                    android:src="@drawable/bag" />
+
+                <Button
+                    android:layout_width="150dp"
+                    android:layout_height="38dp"
+                    android:layout_marginStart="210dp"
+                    android:layout_marginTop="965dp"
+                    android:background="@drawable/round_corners"
+                    android:letterSpacing="0.03"
+                    android:text="Buy Now"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="15dp">
+
+                </Button>
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="1050dp"
+                    android:layout_marginEnd="5dp"
+
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/card_three">
+
+                </com.google.android.material.imageview.ShapeableImageView>
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+
+</ScrollView>
+
